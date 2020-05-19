@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: myweb-pod
+  labels:
+    country: India
+    name: myweb
+    dc: "2"
+spec: 
+  containers:
+    - name: myweb-cont
+      image: httpd
