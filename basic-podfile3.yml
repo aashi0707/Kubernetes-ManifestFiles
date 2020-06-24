@@ -5,7 +5,6 @@ metadata:
    labels:
       env: dev
       dc: IN
-
 spec:
    containers:
    - name: "mycontainer1"
